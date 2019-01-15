@@ -1,7 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #eceff1;
-   
 }
 main {
     display: block;
@@ -27,14 +26,14 @@ label {
     width: 15em;
     margin-bottom: .5em;
 }
-#data span {
-    padding-left: .25em;
-}
 #buttons input {
+    float: left;
     margin-bottom: .5em;
-    background-color: #5c6bc0;
-    color: #ffffff;
 }
 br {
     clear: left;
+}
+.error {
+    color: red;
+    font-weight: bold;
 }
